@@ -23,7 +23,7 @@
 
 [Meltdown](https://meltdownattack.com/meltdown.pdf)论文中给出了他们所做实验的结果, 引用如下：
 
-![](http://github.com/leitScarlett/4-leitScarlett/raw/master/paper result.png)
+![image](http://github.com/leitScarlett/4-leitScarlett/raw/master/paper result.png)
 
 据此, 他们反推出index的值为84。
 
@@ -53,13 +53,13 @@ However, you can effectively disable the patch by adding pti=off (kernel patch a
 
 如图：
 
-![](http://github.com/leitScarlett/4-leitScarlett/raw/master/turn off PTI.png)
+![image](http://github.com/leitScarlett/4-leitScarlett/raw/master/turn off PTI.png)
 
 之后检查内核
 
 > $ ./spectre-meltdown-checker.sh 
 
-![](http://github.com/leitScarlett/4-leitScarlett/raw/master/can be attack .png)
+![image](http://github.com/leitScarlett/4-leitScarlett/raw/master/can be attack.png)
 
 为存在meltdown漏洞，可被攻击
 
@@ -73,6 +73,6 @@ However, you can effectively disable the patch by adding pti=off (kernel patch a
 
 ## 期望的结果
 
-![](http://github.com/leitScarlett/4-leitScarlett/raw/master/expected result.png)
+![image](http://github.com/leitScarlett/4-leitScarlett/raw/master/expected result.png)
 
 从图片中可以看到，开头几个字符为%s version %s (build... 本程序目的是泄漏version信息
