@@ -23,7 +23,7 @@
 
 [Meltdown](https://meltdownattack.com/meltdown.pdf)论文中给出了他们所做实验的结果, 引用如下：
 
-![image](http://github.com/leitScarlett/4-leitScarlett/raw/master/paper result.png)
+![image](http://github.com/leitScarlett/4-leitScarlett/raw/master/paper expected result.png)
 
 据此, 他们反推出index的值为84。
 
